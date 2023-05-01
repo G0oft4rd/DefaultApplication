@@ -39,7 +39,7 @@ publishing {
     }
     publications {
         gpr(MavenPublication) {
-            artifactId="admin_api"
+            artifactId="admin-api"
             from(components.java)
         }
     }
